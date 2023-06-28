@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+a{
+    color: #fdfdfd;
+}
+a:hover{
+    color: #2BDEFD;
+}
+
+footer, header{
+    background-color: #051d3b;
+    width: 100%;
+}
+
+body{
+    background-color: #01080E;
+    color: #fdfdfd;
+    font-family: 'Itim', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{font-size: 35px;}
+h2{font-size: 35px; margin-bottom: 10px;}
+
+.history-text{
+    background-color: red;
+    width: 70%;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px;
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.fundadores{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+}
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.portfolio h2{
+    align-self: flex-start;
+}
+
+.portfolio-image{
+    width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio-image{
+        width: 100%;
+    }
+}
