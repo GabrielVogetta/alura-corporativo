@@ -6,6 +6,10 @@
     font-size: 20px;
 }
 
+.whatsapp{
+    color: #25D366;
+}
+
 @media only screen and (max-width: 600px) {
     *{
         font-size: 16px;
@@ -15,6 +19,7 @@
 a{
     color: #fdfdfd;
 }
+
 a:hover{
     color: #2BDEFD;
 }
@@ -34,34 +39,44 @@ body{
 }
 
 h1{font-size: 40px;}
+
 h2{
     font-size: 35px; 
     margin-bottom: 20px;
     margin-left: 100px;
 }
+
 .margin-left{
     margin-left: 100px;
 }
+
 h3{font-size: 25px;}
 
 .history-text{
     width: 70%;
     text-align: justify;
 }
+
 .history-text p{
     margin-bottom: 5px;
 }
 
-.comunicacao-empresarial{
+.comunicacao-empresarial div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 10px;
+    text-align: justify;
 }
-.comunicacao-empresarial div{
-    width: 50%;
-}
+
 .news-text{
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.news-link{
+    margin-top: 50px;
 }
 
 header{
@@ -73,8 +88,6 @@ header{
 }
 
 main{
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding: 100px;
 }
 @media only screen and (max-width: 600px) {
@@ -112,17 +125,20 @@ main{
     height: 200px;
     border-radius: 8px;
 }
+
 @media only screen and (max-width: 600px) {
     .fundadores{
         flex-direction: column;
         align-items: center;
     }
+
     .fundador{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
+
     .history-text{
         width: 100%;
     }
@@ -166,12 +182,14 @@ span{
     flex-direction: column;
     text-align: center;
 }
+
 .portfolio-text{
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-.portfolio-text p{
-    margin-bottom: 5px;
-}
+
 .portfolio h2{
     align-self: flex-start;
 }
@@ -188,4 +206,18 @@ span{
 
 section{
     margin: 20px 0 20px 0;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+.list-sociais{
+    margin-right: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+main{
+    padding-top: 50px;
 }
